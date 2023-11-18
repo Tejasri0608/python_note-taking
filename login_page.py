@@ -30,7 +30,7 @@ class LoginPage:
         frame = Frame(self.root, width=350, height=350, bg="white")
         frame.place(x=480, y=70)
 
-        heading = Label(frame, text='Sign in', fg='#57a1f8', bg='white', font=('Microsoft YaHei UI Light', 23, 'bold'))
+        heading = Label(frame, text='Login', fg='#57a1f8', bg='white', font=('Microsoft YaHei UI Light', 23, 'bold'))
         heading.place(x=100, y=5)
 
         # Create and place the username entry field
